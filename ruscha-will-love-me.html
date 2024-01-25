@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Small Web, Big Story 3 - Ruscha Will Love Me - OOOF</title>
+    <style>
+        * {
+            padding: 0;
+            box-sizing: border-box;}
+
+        body {
+            background-color: rgb(17, 33, 102);
+            font-family: proxima; 
+            font-size: 48vh;
+            line-height: .75em;
+            margin: 0;
+
+        } 
+        @font-face {
+            font-family: proxima;
+            src: url("proximanova_black.otf");
+            text-wrap: wrap;
+        }
+        .ooof-grid{
+            width: 100vw;
+            height: 100vh;
+            /* display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr; */
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            align-content: center;
+            justify-content: center;
+            color: rgb(255, 225, 0);
+            -webkit-text-stroke: 15px rgb(255, 225, 0);
+        }
+        
+        .group1{
+            /* display: flex;
+            flex-direction: column;
+            row-gap: 0px;
+            justify-content: center;
+            align-content: center; */
+        }
+        .group2{
+            /* display: flex;
+            flex-direction: column;
+            row-gap: 0px;
+            justify-content: center;
+            align-content: center; */
+        }
+
+        .letter {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        @media only screen and (max-width: 1200px) {
+            .ooof-grid{
+            grid-template-columns: 1fr 1fr 1fr;
+            }
+            .group1{display: none;}
+        }
+        @media only screen and (max-width: 900px) {
+            .ooof-grid{
+            grid-template-columns: 1fr 1fr;
+            }
+            .group1{display: none;}
+            .group2{display: none;}
+        }
+        @media only screen and (max-width: 600px) {
+            .ooof-grid{
+                grid-template-columns: 1fr;
+            }
+            .group1{display: none;}
+            .group2{display: none;}
+            .group3{display: none;}
+        }
+
+    </style>
+</head>
+<body>
+    <div class="ooof-grid">
+        <div class="group1"> <div class="letter">O</div><div class="letter">O</div></div>
+        <div class="group2"> <div class="letter">O</div><div class="letter">O</div></div>
+        <div class="group3"> <div class="letter">O</div><div class="letter">O</div></div>
+        <div class="group4"> <div class="letter">O</div><div class="letter">F</div></div>
+    </div>
+</body>
+</html>
