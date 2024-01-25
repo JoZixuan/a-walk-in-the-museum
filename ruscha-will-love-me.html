@@ -57,26 +57,34 @@
             justify-content: center;
         }
 
-        @media only screen and (max-width: 1200px) {
+        @media only screen and (max-width: 2200px) {
+            .ooof-grid{
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            .group1{display: none;}
+            }}
+
+        @media only screen and (max-width: 1750px) {
             .ooof-grid{
             grid-template-columns: 1fr 1fr 1fr;
             }
-            .group1{display: none;}
+            .group2{display: none;}
         }
-        @media only screen and (max-width: 900px) {
+        @media only screen and (max-width: 1300px) {
             .ooof-grid{
             grid-template-columns: 1fr 1fr;
             }
             .group1{display: none;}
             .group2{display: none;}
+            .group3{display: none;}
         }
-        @media only screen and (max-width: 600px) {
+        @media only screen and (max-width: 850px) {
             .ooof-grid{
                 grid-template-columns: 1fr;
             }
             .group1{display: none;}
             .group2{display: none;}
             .group3{display: none;}
+            .group4{display: none;}
         }
 
     </style>
@@ -86,7 +94,8 @@
         <div class="group1"> <div class="letter">O</div><div class="letter">O</div></div>
         <div class="group2"> <div class="letter">O</div><div class="letter">O</div></div>
         <div class="group3"> <div class="letter">O</div><div class="letter">O</div></div>
-        <div class="group4"> <div class="letter">O</div><div class="letter">F</div></div>
+        <div class="group4"> <div class="letter">O</div><div class="letter">O</div></div>
+        <div class="group5"> <div class="letter">O</div><div class="letter">F</div></div>
     </div>
 </body>
 </html>

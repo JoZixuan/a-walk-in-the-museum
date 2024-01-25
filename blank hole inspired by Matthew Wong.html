@@ -36,7 +36,19 @@
             width: 100vw;
             height: 100vh;
         }
-        /* #container{height: 100%; width:100%; align-items: center; } */
+        .blankhole{
+            width: 300px; height: 400px; background-color: rgb(255, 255, 255); border-radius: 100%;
+            transition: 1s;
+        }
+        .blankhole:hover{
+            width: 60vw; height: 60vh; background-color:rgb(0, 0, 0); border-radius: 50%;
+            cursor: help;
+        }
+        .blankhole:active{
+            transform:rotate(360deg) scale(.5);
+            cursor: grab;
+          
+        }
        
 
     </style>
@@ -46,7 +58,7 @@
     <div class="blur">
 
         <div class="container">
-            <div style="width: 300px; height: 400px; background-color: rgb(255, 255, 255); border-radius: 100%;"> </div>
+            <div class="blankhole"> </div>
         </div>
 
     </div> 

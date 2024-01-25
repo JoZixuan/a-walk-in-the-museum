@@ -30,6 +30,7 @@
 		}
 		.rect1:hover {
 			filter: hue-rotate(-100deg) grayscale(60%) blur(20px);
+			cursor: pointer;
 		}
 		.rect2 {
 			background-color: rgb(182, 28, 49);
@@ -40,6 +41,7 @@
 
 		.rect2:hover {
 			filter: hue-rotate(-30deg) blur(10px);
+			cursor: pointer;
 		}
 		.rect3{
 			background-color: rgb(143, 43, 25);
@@ -48,7 +50,37 @@
 
 		.rect3:hover {
 			filter: hue-rotate(50deg) blur(10px);
+			cursor: pointer;
 		}
+
+		@media only screen and (min-width: 1500px) {
+			.untitled1 {
+		   grid-template-rows: 0.5fr 1.8fr 1fr;
+		   gap: 10px;
+		   
+		   }
+		   .rect1 {
+			background-color: rgb(0, 88, 240);
+			border-radius: 10%;
+			filter: blur(20px);
+			transition: 2s;
+		    }
+		   .rect2 {
+			background-color: rgb(54, 93, 46);
+			border: 30px dashed rgba(5, 3, 28, 0.177);
+			border-radius: 5%;
+			transition: 2s;
+		    }
+			.rect3 {
+			background-color: rgb(121, 255, 94);
+			border: 20px dashed rgba(203, 95, 28, 0.119);
+			border-radius: 5%;
+			transition: 2s;
+		    }
+		 body {
+			background-color: rgb(255, 238, 81);
+		  }
+	    }
 
 		@media only screen and (min-width: 1300px) {
 			.untitled1 {
