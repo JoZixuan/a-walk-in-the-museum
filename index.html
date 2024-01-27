@@ -16,11 +16,13 @@
         a{
             color: rgb(255, 247, 98);
             transition: 0.4s;
+            text-decoration: none;
         }
         a:hover{
             color:rgb(0, 0, 0);
             font-size: 120%;
-            text-decoration: dotted;
+            cursor:help;
+            
         }
         .gallery{
             display:flex;
@@ -40,11 +42,17 @@
             background-color: rgb(29, 184, 29);
             place-items: center;
             text-align: center;
-            padding-top: 220px;
+            padding-top: 190px;
         }
         .door:hover{
             background-color: rgb(255, 247, 98);
-            transform: scale(1.01) rotate(1deg);
+            transform: scale(1.01) rotate(3deg);
+            text-decoration: none;
+        }
+        .h2{
+            font-size: 22px;
+            font-weight: 300;
+            padding-top: 10px;
         }
     </style>
 </head>
@@ -60,14 +68,17 @@
     <div class="gallery" >
         <a href="blank hole inspired by Matthew Wong.html">
             <div class="door">
-           [ GALLERY 101 ]
+                [ GALLERY 101 ]
+           <div class="h2">Blank Hole <div>Inspired by Matthew Wong</div></div>
         </div>
         </a>
         <a href="rothko-will-hate-me.html"><div class="door">
-            [ GALLERY 102 ]</div></a>
+           [ GALLERY 102 ] <div></div> 
+            <div class="h2">Rothko Will Hate Me</div></div></a>
             <a href="ruscha-will-love-me.html">
                 <div class="door">
-           [ GALLERY 103 ]</div></a>
+           [ GALLERY 103 ]
+           <div class="h2">Ruscha Will Love Me</div></div></a>
     </div>
     
 
