@@ -53,61 +53,61 @@
 			cursor: pointer;
 		}
 
-		@media only screen and (min-width: 1500px) {
+		@media only screen and (max-width: 1500px) {
 			.untitled1 {
-		   grid-template-rows: 0.5fr 1.8fr 1fr;
+		   grid-template-rows: 3fr 1fr 0.5fr 0.2fr;
 		   gap: 10px;
 		   
 		   }
 		   .rect1 {
-			background-color: rgb(0, 88, 240);
+			background-color: rgb(46, 46, 67);
 			border-radius: 10%;
 			filter: blur(20px);
 			transition: 2s;
 		    }
 		   .rect2 {
-			background-color: rgb(54, 93, 46);
-			border: 30px dashed rgba(5, 3, 28, 0.177);
+			background-color: rgb(255, 222, 194);
+			border: 30px dashed rgba(199, 72, 44, 0.177);
 			border-radius: 5%;
 			transition: 2s;
 		    }
 			.rect3 {
-			background-color: rgb(121, 255, 94);
+			background-color: rgb(29, 116, 41);
 			border: 20px dashed rgba(203, 95, 28, 0.119);
 			border-radius: 5%;
 			transition: 2s;
 		    }
+			.rect4 {background-color: rgb(19, 31, 119);
+				width: 95%;
+		  justify-self: center;
+				border-radius: 15%;
+			filter: blur(10px);}
 		 body {
-			background-color: rgb(255, 238, 81);
+			background-color: rgb(219, 67, 12);
 		  }
 	    }
 
-		@media only screen and (min-width: 1300px) {
+		@media only screen and (max-width: 1300px) {
 			.untitled1 {
-		   grid-template-rows: 0.9fr 1.2fr 1fr;
-		   gap: 10px;
+		   grid-template-rows: 1.3fr 1fr 0fr;
+		   gap: 50px;
 		   
 		   }
 		   .rect1 {
-			background-color: rgb(1, 12, 31);
+			background-color: rgb(16, 20, 25);
 			border-radius: 10%;
 			filter: blur(20px);
 			transition: 2s;
 		    }
 		   .rect2 {
-			background-color: rgb(13, 6, 43);
-			border: 30px dashed rgba(5, 3, 28, 0.177);
-			border-radius: 5%;
-			transition: 2s;
-		    }
-			.rect3 {
-			border: 20px dashed rgba(203, 95, 28, 0.119);
+			background-color: rgb(255, 237, 237);
+			border: 30px dashed rgba(255, 193, 193, 0.177);
 			border-radius: 5%;
 			transition: 2s;
 		    }
 
 		 body {
-			background-color: rgb(138, 0, 0);
+			background-color: rgb(33, 83, 132);
 		  }
 	    }
 
@@ -175,6 +175,7 @@
 		<div class="rect1"></div>
 		<div class="rect2"></div>
 		<div class="rect3"></div>
+		<div class="rect4"></div>
 	</div>
 
 </body>
