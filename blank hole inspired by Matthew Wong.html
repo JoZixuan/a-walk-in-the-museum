@@ -7,13 +7,9 @@
     <style>
         * {box-sizing: border-box; margin: 0;}
         .blur{
-            filter: blur(25px) drop-shadow(0px 0px 0px rgb(255, 255, 255))
+            filter: blur(25px) drop-shadow(0px 0px 0px rgb(255, 255, 255))  }
             
-        }
-       
-
         .grid {
-
             background-image:
             repeating-linear-gradient(#000000 0 1px, transparent 1px 100%),
             repeating-linear-gradient(90deg, #000000 0 1px, transparent 1px 100%);
@@ -46,21 +42,16 @@
         }
         .blankhole:active{
             transform:rotate(360deg) scale(.5);
-            cursor: grab;
-          
+            cursor: grab;         
         }
-       
-
     </style>
 
 </head>
 <body>
     <div class="blur">
-
         <div class="container">
             <div class="blankhole"> </div>
         </div>
-
     </div> 
 </body>
 </html>
